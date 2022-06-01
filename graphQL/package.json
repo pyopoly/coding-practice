@@ -1,0 +1,19 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "basic project to practice graphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyopoly/coding-practice.git"
+  },
+  "author": "Jack Shih",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyopoly/coding-practice/issues"
+  },
+  "homepage": "https://github.com/pyopoly/coding-practice#readme"
+}
