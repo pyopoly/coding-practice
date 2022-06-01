@@ -2,9 +2,10 @@
   "name": "graphql",
   "version": "1.0.0",
   "description": "basic project to practice graphQL",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/pyopoly/coding-practice/issues"
   },
-  "homepage": "https://github.com/pyopoly/coding-practice#readme"
+  "homepage": "https://github.com/pyopoly/coding-practice#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
